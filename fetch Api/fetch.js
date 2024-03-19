@@ -1,7 +1,7 @@
 // console.log("Working");
 
 // function fetch() {
-//     fetch(`https://api.themoviedb.org/3/movie/157336?api_key=5331a8e025e11c4cb576caec476082a9`)
+//     fetch(`https://api.themoviedb.org/3/movie/157336?api_key={YOUR API KEY}`)
 //     .then(function(raw){
 //         return raw.json
 //     })
