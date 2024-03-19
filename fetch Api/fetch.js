@@ -9,7 +9,7 @@
 //         console.log(data)
 //     })
 //     .catch(function(err){
-//         console.log(err)
+//         console.error(err)
 //     })
 // }
 
