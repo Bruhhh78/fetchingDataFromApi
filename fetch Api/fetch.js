@@ -19,7 +19,7 @@ console.log("Working");
 
 async function fetchData() {
     try {
-        const response = await fetch(`https://api.themoviedb.org/3/movie/157336?api_key=5331a8e025e11c4cb576caec476082a9&append_to_response=videos,images`);
+        const response = await fetch(`https://api.themoviedb.org/3/movie/157336?api_key={YOUR API KEY}&append_to_response=videos,images`);
         const data = await response.json();
         const movieData = {
             id: data.id,
